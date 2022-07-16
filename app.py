@@ -1,8 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image, ImageEnhance
-from openvc-python import cv2
-
+from openvc-python import cv2 as cv2
 
 
 faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
